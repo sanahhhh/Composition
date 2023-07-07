@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/tv_choose_lvl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_lvl"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/test"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"
+        android:backgroundTint="#03A9F4">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/easy"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#027E06"
+        android:textSize="16sp">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/normal"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#DAA70D"
+        android:textSize="16sp">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_hard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hard"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#F64539"
+        android:textSize="16sp">
+    </Button>
+
+</LinearLayout>
